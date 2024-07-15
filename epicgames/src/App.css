@@ -1,0 +1,368 @@
+.content {
+  /* main content div */
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0.96px;
+}
+
+.content-centering {
+  /* Common div for centering contents  */
+  display: flex;
+  justify-content: center;
+}
+.content-justify-end {
+  /* Common div for justify end  */
+  display: flex;
+  justify-content: end;
+}
+.close-button {
+  /* Close Button */
+  cursor: pointer;
+  margin-top: 50px;
+  width: 3%;
+  margin-right: 2vw;
+}
+.heading {
+  /* Main heading */
+  width: 72vw;
+  margin-top: 50px;
+  font-size: 38px;
+  font-weight: 200;
+  line-height: 48px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.fortnite-image {
+  /* Main image fortnite */
+  width: 74vw;
+  margin-top: 50px;
+}
+
+.about-text {
+  margin-top: 50px;
+  width: 64vw;
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: 27px;
+  font-family: "Poppins-Light";
+}
+
+.visit-website-button {
+  /* Website hyperlink */
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  margin-top: 55px;
+  background-color: rgb(255, 255, 255);
+  width: 22vw;
+  height: 60px;
+  font-family: "Poppins-Light";
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 28.5px;
+}
+.content-centering-img {
+  /* Common div for centering and responsivness too  */
+  display: flex;
+  justify-content: center;
+}
+
+.in-game-images {
+  margin-left: 1.3vw;
+  margin-right: 1.3vw;
+  margin-top: 193px;
+  width: 18vw;
+}
+.in-game-images-byline {
+  /* In game description */
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-game-images-text {
+  margin-left: 1.3vw;
+  margin-right: 1.3vw;
+  margin-top: 33px;
+  width: 18vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22.27px;
+}
+
+.contribution-head {
+  margin-top: 200px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 48px;
+}
+.contribution-body {
+  width: 59%;
+  margin-top: 24px;
+  font-family: "Poppins-Light";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.analatics {
+  /* Engagements revenue and campaigns */
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 10%;
+}
+
+.analatics-head {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.analatics-body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14.5px;
+  font-weight: 200;
+}
+.contact {
+  /* Contact details */
+  width: 49vw;
+  margin-top: 280px;
+}
+
+.contact-head {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 48px;
+}
+.contact-body {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32.81px;
+  margin-top: 50px;
+}
+.analatics-body-width {
+  width: 45vw;
+}
+.contact-body-bold-font {
+  font-weight: 450;
+}
+
+.contact-buttons {
+  margin-top: 85px;
+  cursor: pointer;
+  font-family: "Poppins-Light";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skype {
+  /* Skype link  */
+  width: 20vw;
+  height: 60px;
+  border: 3px solid rgb(255, 255, 255);
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.number {
+  /* call number link */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 255, 255);
+  width: 20vw;
+  color: rgb(0, 0, 0);
+  height: 60px;
+  margin-left: 10px;
+}
+.footer {
+  margin-top: 310px;
+  width: 30vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-bottom: 50px;
+}
+
+
+
+@media only screen and (min-width: 2000px) {
+  .heading {
+    font-size: 55px;
+  }
+  .about-text {
+    font-size: 16.5px;
+  }
+  .in-game-images-text {
+    font-size: 20px;
+  }
+  .contribution-head {
+    font-size: 45px;
+  }
+  .contribution-body {
+    font-size: 18px;
+  }
+  .analatics-head {
+    font-size: 70px;
+  }
+  .analatics-body {
+    font-size: 20px;
+  }
+  .contact-head {
+    font-size: 49px;
+  }
+  .contact-body {
+    font-size: 28px;
+  }
+  .contact-buttons {
+    font-size: 22px;
+  }
+  .footer {
+    font-size: 19px;
+  }
+}
+
+
+@media only screen and (max-width: 950px) {
+  .heading {
+    font-size: 23px;
+  }
+
+  .about-text {
+    font-size: 10px;
+  }
+
+  .visit-website-button {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .in-game-images-text {
+    font-size: 12px;
+  }
+  .contribution-head {
+    font-size: 25px;
+  }
+  .contribution-body {
+    font-size: 7px;
+  }
+  .analatics-head {
+    font-size: 35px;
+  }
+  .analatics-body {
+    font-size: 12px;
+  }
+  .contact {
+    margin-top: 150px;
+  }
+  .contact-head {
+    font-size: 25px;
+  }
+  .contact-body {
+    font-size: 15px;
+  }
+  .contact-buttons {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .close-button {
+    width: 6%;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .about-text {
+    font-size: 10px;
+  }
+  .visit-website-button {
+    height: 30px;
+    font-size: 10px;
+  }
+  .content-centering-img {
+    display: block;
+  }
+  .in-game-images {
+    width: 50vw;
+  }
+  .in-game-images {
+    margin-top: 50px;
+  }
+  .in-game-images-byline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .in-game-images-text {
+    width: 50vw;
+  }
+  .contribution-head {
+    margin-top: 50px;
+  }
+  .analatics {
+    margin-top: 20px;
+    width: 90vw;
+  }
+  .analatics-head {
+    width: 90vw;
+    font-size: 40px;
+  }
+  .analatics-body {
+    width: 90vw;
+
+    font-size: 15px;
+  }
+  .skype {
+    width: 40vw;
+    margin-right: 0px;
+  }
+  .number {
+    width: 40vw;
+
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .contact-button-responsiveness {
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    width: 70vw;
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .close-button {
+    width: 9%;
+  }
+  .heading {
+    font-size: 18px;
+  }
+  .visit-website-button {
+    height: 20px;
+    font-size: 8px;
+  }
+}
